@@ -19,113 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="First Commit !">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-576b2a2b9276fa9ebf4a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f022024b68e9be55263.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fd2b69d5c6bf5de72ac6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-28T08-08-50-0307.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-TestSDL-Debug-2c6bc1a6bde21916aeb6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2698481b90a79e858cd9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/application.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/ship.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/ship2.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/spritesheet.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestSDL.dir/utilities.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL2.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL2_image.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL2main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/TestSDL.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/images/curseur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/images/spritesheet.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/images/spritesheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libSDL2_image.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libSDL2_image.dll.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libSDL2_image.la" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libgcc_s_seh-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libjpeg-9.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libpng16-16.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libstdc++-6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/libwinpthread-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/spritesheet.png.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/zlib1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-c1a58aef29139014ff9c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-d95d73a757ed6086589b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-80a7917a17754079ddac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2022-06-28T08-08-50-0290.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-TestSDL-Release-5a11fa50e849a27f8195.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-2698481b90a79e858cd9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/application.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/ship.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/ship2.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/spritesheet.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TestSDL.dir/utilities.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/SDL2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/SDL2_image.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/images/curseur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/images/spritesheet.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/images/spritesheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/libgcc_s_seh-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/libjpeg-9.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/libpng16-16.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/libstdc++-6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/libwinpthread-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/zlib1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +100,7 @@
       <workItem from="1656053900044" duration="18945000" />
       <workItem from="1656079558430" duration="801000" />
       <workItem from="1656313534864" duration="681000" />
-      <workItem from="1656314223139" duration="9644000" />
+      <workItem from="1656314223139" duration="10104000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit !">
       <created>1656428597879</created>
