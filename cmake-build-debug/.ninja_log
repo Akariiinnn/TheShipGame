@@ -1,0 +1,9 @@
+# ninja log v5
+2	212	6781069301842007	build.ninja	374040c48346e0d
+28	1443	6780175769332934	CMakeFiles/TestSDL.dir/utilities.cpp.obj	cac03036b056e5d8
+1041	1386	6781062431940224	TestSDL.exe	df28c690adb20997
+18	1249	6780191540182045	CMakeFiles/TestSDL.dir/ship.cpp.obj	cd1101bf2e949531
+23	1099	6780175874350954	CMakeFiles/TestSDL.dir/spritesheet.cpp.obj	5f1e30b84a320a16
+3	1040	6781062428609004	CMakeFiles/TestSDL.dir/ship2.cpp.obj	b30b7898c219b4a
+25	1598	6781060425975827	CMakeFiles/TestSDL.dir/main.cpp.obj	5ab316061e5f50dd
+3	1377	6781062207505974	CMakeFiles/TestSDL.dir/application.cpp.obj	eef788eec8cadac1

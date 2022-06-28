@@ -1,0 +1,3 @@
+C:/Users/stagiairedit/CLionProjects/TestSDL/cmake-build-debug/CMakeFiles/TestSDL.dir
+C:/Users/stagiairedit/CLionProjects/TestSDL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/stagiairedit/CLionProjects/TestSDL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
