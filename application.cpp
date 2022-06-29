@@ -3,7 +3,7 @@
 
 Application::Application()
 {
-    m_window = SDL_CreateWindow("SDL2 Window",
+    m_window = SDL_CreateWindow("The Ship Game !",
                                 SDL_WINDOWPOS_CENTERED,
                                 SDL_WINDOWPOS_CENTERED,
                                 680, 480,
