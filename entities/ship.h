@@ -45,17 +45,11 @@ public:
     void handle_events(SDL_Event const &event);
     void update(double delta_time);
     void draw(SDL_Surface *window_surface);
-    void start();
 private:
     Spritesheet  m_spritesheet;
     Direction    m_direction;
     Orientation  m_orientation;
 
-    bool         firing;
-    bool         lookup;
-    bool         lookdown;
-    bool         lookleft;
-    bool         lookright;
     SDL_Rect     m_position;
     double       m_x;
     double       m_y;

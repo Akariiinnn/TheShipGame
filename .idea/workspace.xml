@@ -19,11 +19,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="Cleared the directories">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/images/animated_asteroid2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/images/meteorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/meteorite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/meteorite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/animated_asteroid2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/curseur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/meteorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spritesheet.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/render/background.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/render/background.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/ship.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/ship2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/entities/images/spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/ship2.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/render/spritesheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/render/spritesheet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/render/spritesheet.h" beforeDir="false" afterPath="$PROJECT_DIR$/render/spritesheet.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +91,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/stagiairedit/CLionProjects/TestSDL&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -87,12 +105,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSDL" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestSDL" TARGET_NAME="TestSDL" CONFIG_NAME="Debug" RUN_PATH="TheShipGame">
+    <configuration name="TestSDL" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestSDL" TARGET_NAME="TestSDL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TestSDL" RUN_TARGET_NAME="TestSDL">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -113,7 +126,12 @@
       <workItem from="1656313534864" duration="681000" />
       <workItem from="1656314223139" duration="10739000" />
       <workItem from="1656430718946" duration="108000" />
-      <workItem from="1656485590471" duration="2427000" />
+      <workItem from="1656485590471" duration="3498000" />
+      <workItem from="1656489124890" duration="68000" />
+      <workItem from="1656492273499" duration="2115000" />
+      <workItem from="1656501586347" duration="8190000" />
+      <workItem from="1656510710272" duration="8000" />
+      <workItem from="1656510978455" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit !">
       <created>1656428597879</created>
@@ -150,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656486790810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cleared the directories">
+      <created>1656488042631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656488042631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

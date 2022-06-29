@@ -7,7 +7,6 @@
 Spritesheet::Spritesheet(char const *path, int row, int column)
 {
     m_spritesheet_image = load_pngjpg(path);
-
     m_clip.w = m_spritesheet_image->w / column;
     m_clip.h = m_spritesheet_image->h / row;
 }

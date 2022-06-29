@@ -26,17 +26,6 @@ public:
         RIGHTFIRING
     };
 
-    enum class Orientation {
-        LOOKUP,
-        LOOKDOWN,
-        LOOKLEFT,
-        LOOKRIGHT,
-        LOOKUPFIRING,
-        LOOKDOWNFIRING,
-        LOOKLEFTFIRING,
-        LOOKRIGHTFIRING
-    };
-
     Ship2();
     ~Ship2() = default;
 
@@ -49,13 +38,6 @@ public:
 private:
     Spritesheet  m_spritesheet;
     Direction    m_direction;
-    Orientation  m_orientation;
-
-    bool         firing;
-    bool         lookup;
-    bool         lookdown;
-    bool         lookleft;
-    bool         lookright;
     SDL_Rect     m_position;
     double       m_x;
     double       m_y;

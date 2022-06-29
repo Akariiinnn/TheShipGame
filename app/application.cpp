@@ -1,7 +1,6 @@
 #include "application.h"
 
-
-Application::Application()
+Application::Application(int difficulty)
 {
     m_window = SDL_CreateWindow("The Ship Game !",
                                 SDL_WINDOWPOS_CENTERED,
@@ -10,6 +9,9 @@ Application::Application()
                                 0);
 
     m_window_surface = SDL_GetWindowSurface(m_window);
+    m_background2 = new Background(680);
+    m_background = new Background(0);
+
 }
 
 Application::~Application()
@@ -36,13 +38,16 @@ void Application::loop()
             }
         }
 
-        update(1.0/60.0);
+        update(1.0/5.0);
         draw();
     }
 }
 
 void Application::update(double delta_time)
 {
+
+    m_background->update(delta_time);
+    m_meteorite.update(delta_time);
     m_ship.update(delta_time);
     m_ship2.update(delta_time);
 }
@@ -51,6 +56,9 @@ void Application::draw()
 {
     SDL_FillRect(m_window_surface, nullptr, SDL_MapRGB(m_window_surface->format, 0, 0, 0));
 
+    m_background2->draw(m_window_surface);
+    m_background->draw(m_window_surface);
+    m_meteorite.draw(m_window_surface);
     m_ship.draw(m_window_surface);
     m_ship2.draw(m_window_surface);
 
@@ -59,4 +67,8 @@ void Application::draw()
 
 void Application::start() {
     loop();
+}
+
+SDL_Renderer *Application::getRenderer() {
+    return this->getRenderer();
 }

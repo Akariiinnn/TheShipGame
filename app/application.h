@@ -9,24 +9,30 @@
 #include "../entities/ship.h"
 #include "../entities/ship2.h"
 #include <memory>
+#include "../entities/meteorite.h"
+#include "../render/background.h"
 
 class Application
 {
 public:
-    Application();
+    Application(int difficulty);
     ~Application();
 
     void loop();
     void update(double delta_time);
     void draw();
-
+    int i;
     void start();
 
     SDL_Renderer *getRenderer();
 
 private:
-    Ship m_ship;
-    Ship2 m_ship2;
+    int    m_difficulty;
+    Ship          m_ship;
+    Ship2         m_ship2;
+    Meteorite     m_meteorite;
+    Background   *m_background;
+    Background   *m_background2;
     SDL_Window   *m_window;
     SDL_Surface  *m_window_surface;
     SDL_Event     m_window_event;
