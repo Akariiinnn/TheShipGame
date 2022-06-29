@@ -8,6 +8,6 @@ set(SDL2_LIB_DIR C:/SDL/SDL2-2.0.12/lib/x64)
 include_directories(${SDL2_INCLUDE_DIR})
 link_directories(${SDL2_LIB_DIR})
 
-add_executable(TestSDL main.cpp Application.cpp Application.h ship.h ship.cpp utilities.cpp utilities.h spritesheet.cpp spritesheet.h Mouse.h ship2.cpp ship2.h)
+add_executable(TestSDL main.cpp app/application.cpp app/application.h entities/ship.h entities/ship.cpp render/utilities.cpp render/utilities.h render/spritesheet.cpp render/spritesheet.h entities/ship2.h entities/ship2.cpp)
 
 target_link_libraries(${PROJECT_NAME} SDL2main SDL2 SDL2_image)

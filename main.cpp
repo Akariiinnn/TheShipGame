@@ -1,6 +1,6 @@
 #include <SDL.h>
 #include <iostream>
-#include "application.h"
+#include "app/application.h"
 using namespace std;
 
 int main(int argc, char* args[])
