@@ -6,7 +6,7 @@ int const SPRITESHEET_RIGHT = 2;
 int const SPRITESHEET_DOWN = 3;
 float const SHIP_SPEED = 12.0;
 
-Ship2::Ship2(): m_spritesheet("../images/spritesheet.png", 1, 8)
+Ship2::Ship2(): m_spritesheet("images/spritesheet.png", 1, 8)
 {
     m_position.x = 100;
     m_position.y = 100;
