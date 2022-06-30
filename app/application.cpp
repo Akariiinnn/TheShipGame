@@ -1,8 +1,8 @@
 #include "application.h"
 #include "../render/utilities.h"
 
-int WINDOW_WIDTH = 680;
-int WINDOW_HEIGHT = 480;
+static int WINDOW_WIDTH = 680;
+static int WINDOW_HEIGHT = 480;
 
 Application::Application(int difficulty)
 {
@@ -44,6 +44,23 @@ void Application::loop()
             }
         }
 
+        if(m_ship.getOrientation() == Ship::Orientation::NORTH)
+        {
+            std::cout << "Ship facing North !" << std::endl;
+        }
+        if(m_ship.getOrientation() == Ship::Orientation::SOUTH)
+        {
+            std::cout << "Ship facing South !" << std::endl;
+        }
+        if(m_ship.getOrientation() == Ship::Orientation::EAST)
+        {
+            std::cout << "Ship facing East !" << std::endl;
+        }
+        if(m_ship.getOrientation() == Ship::Orientation::WEST)
+        {
+            std::cout << "Ship facing West !" << std::endl;
+        }
+
         update(1.0/5.0);
         draw();
     }
@@ -78,4 +95,12 @@ void Application::start() {
 
 SDL_Renderer *Application::getRenderer() {
     return this->getRenderer();
+}
+
+int Application::getWindowWidth() {
+    return WINDOW_WIDTH;
+}
+
+int Application::getWindowHeight() {
+    return WINDOW_HEIGHT;
 }

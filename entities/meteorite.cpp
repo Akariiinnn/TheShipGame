@@ -4,6 +4,7 @@
 
 #include <ctime>
 #include "meteorite.h"
+#include "../app/application.h"
 
 int ip = 0;
 int k = 0;
@@ -12,13 +13,13 @@ bool secondrow = false;
 Meteorite::Meteorite() : m_spritesheet("images/animated_asteroid2.png",2,16)
 {
     srand(time(0));
-    m_x = 680;
+    m_x = Application::getWindowWidth();
     m_y = rand() % 410 - 70;
     m_speed = (float) ((rand() % 10 - 5) + 10);
     m_position.x = 680;
     m_position.y = 240;
-    m_position.w = 70;
-    m_position.h = 70;
+    m_position.w = Application::getWindowWidth() / 10;
+    m_position.h = Application::getWindowWidth() / 10;
     m_spritesheet.select_sprite(0,0);
 }
 

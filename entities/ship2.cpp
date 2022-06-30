@@ -1,4 +1,5 @@
 #include "ship2.h"
+#include "../app/application.h"
 
 int const SPRITESHEET_UP = 0;
 int const SPRITESHEET_LEFT = 1;
@@ -10,8 +11,8 @@ Ship2::Ship2(): m_spritesheet("images/spritesheet.png", 1, 8)
 {
     m_position.x = 100;
     m_position.y = 100;
-    m_position.w = 43;
-    m_position.h = 43;
+    m_position.w = Application::getWindowWidth() / 16;
+    m_position.h = Application::getWindowHeight() / 16;
 
     m_x = 0.0;
     m_y = 0.0;

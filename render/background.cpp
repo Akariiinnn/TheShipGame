@@ -4,14 +4,15 @@
 
 #include "background.h"
 #include "utilities.h"
+#include "../app/application.h"
 
 Background::Background(int x)
 {
     m_background_image = load_pngjpg("images/fond.png");
     m_position.x = x;
     m_position.y = 0;
-    m_position.w = 680;
-    m_position.h = 480;
+    m_position.w = Application::getWindowWidth();
+    m_position.h = Application::getWindowWidth();
 }
 
 void Background::update(double delta_time) {

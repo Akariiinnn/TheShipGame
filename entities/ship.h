@@ -27,14 +27,10 @@ public:
     };
 
     enum class Orientation {
-        LOOKUP,
-        LOOKDOWN,
-        LOOKLEFT,
-        LOOKRIGHT,
-        LOOKUPFIRING,
-        LOOKDOWNFIRING,
-        LOOKLEFTFIRING,
-        LOOKRIGHTFIRING
+        NORTH,
+        SOUTH,
+        EAST,
+        WEST
     };
 
     Ship();
@@ -45,6 +41,7 @@ public:
     void handle_events(SDL_Event const &event);
     void update(double delta_time);
     void draw(SDL_Surface *window_surface);
+    Orientation getOrientation();
 private:
     Spritesheet  m_spritesheet;
     Direction    m_direction;

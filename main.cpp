@@ -15,7 +15,7 @@ int main(int argc, char* args[])
 
     HWND console = GetConsoleWindow();
     //hide console
-    ShowWindow(console, SW_HIDE);
+    //ShowWindow(console, SW_HIDE);
     app.start();
 
     return 0;

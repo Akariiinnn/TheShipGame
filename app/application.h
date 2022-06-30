@@ -23,7 +23,8 @@ public:
     void draw();
     int i;
     void start();
-
+    static int getWindowWidth();
+    static int getWindowHeight();
     SDL_Renderer *getRenderer();
 
 private:
