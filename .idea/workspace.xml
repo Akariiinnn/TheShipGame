@@ -20,15 +20,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="Trying things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/meteorite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/meteorite.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship2.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/star.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/star.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/star.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/star.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +119,7 @@
       <workItem from="1656510710272" duration="8000" />
       <workItem from="1656510978455" duration="2538000" />
       <workItem from="1656572398444" duration="5197000" />
-      <workItem from="1656578413210" duration="306000" />
+      <workItem from="1656578413210" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit !">
       <created>1656428597879</created>
