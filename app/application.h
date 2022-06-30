@@ -27,7 +27,7 @@ public:
     SDL_Renderer *getRenderer();
 
 private:
-    int    m_difficulty;
+    int           m_difficulty;
     Ship          m_ship;
     Ship2         m_ship2;
     Meteorite     m_meteorite;

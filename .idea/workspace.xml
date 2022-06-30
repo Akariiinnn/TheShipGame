@@ -18,30 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="Cleared the directories">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/images/animated_asteroid2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/images/meteorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/meteorite.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/meteorite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/animated_asteroid2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/curseur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/meteorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spritesheet.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spritesheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/render/background.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/render/background.h" afterDir="false" />
+    <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="Trying things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/ship2.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/render/spritesheet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/render/spritesheet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/render/spritesheet.h" beforeDir="false" afterPath="$PROJECT_DIR$/render/spritesheet.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +109,8 @@
       <workItem from="1656492273499" duration="2115000" />
       <workItem from="1656501586347" duration="8190000" />
       <workItem from="1656510710272" duration="8000" />
-      <workItem from="1656510978455" duration="2507000" />
+      <workItem from="1656510978455" duration="2538000" />
+      <workItem from="1656572398444" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit !">
       <created>1656428597879</created>
@@ -175,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656488042631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trying things">
+      <created>1656514955902</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656514955902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +193,8 @@
     <MESSAGE value="Commit test" />
     <MESSAGE value="Commit test2" />
     <MESSAGE value="Cleared the directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleared the directories" />
+    <MESSAGE value="Trying things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying things" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
