@@ -34,6 +34,7 @@ private:
     Background   *m_background;
     Background   *m_background2;
     SDL_Window   *m_window;
+    SDL_Surface  *m_window_icon;
     SDL_Surface  *m_window_surface;
     SDL_Event     m_window_event;
 };

@@ -20,6 +20,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea47ae5f-33e7-4432-9e42-be1b2d5ed7da" name="Changes" comment="Trying things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
       <workItem from="1656501586347" duration="8190000" />
       <workItem from="1656510710272" duration="8000" />
       <workItem from="1656510978455" duration="2538000" />
-      <workItem from="1656572398444" duration="1000" />
+      <workItem from="1656572398444" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit !">
       <created>1656428597879</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656514955902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Trying things">
+      <created>1656572460978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656572460978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

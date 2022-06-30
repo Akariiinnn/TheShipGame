@@ -1,16 +1,22 @@
 #include "application.h"
+#include "../render/utilities.h"
+
+int WINDOW_WIDTH = 680;
+int WINDOW_HEIGHT = 480;
 
 Application::Application(int difficulty)
 {
     m_window = SDL_CreateWindow("The Ship Game !",
                                 SDL_WINDOWPOS_CENTERED,
                                 SDL_WINDOWPOS_CENTERED,
-                                680, 480,
+                                WINDOW_WIDTH, WINDOW_HEIGHT,
                                 0);
 
     m_window_surface = SDL_GetWindowSurface(m_window);
     m_background2 = new Background(680);
     m_background = new Background(0);
+    m_window_icon = load_pngjpg("images/icon.png");
+    SDL_SetWindowIcon(m_window, m_window_icon);
 
 }
 
@@ -66,6 +72,7 @@ void Application::draw()
 }
 
 void Application::start() {
+    SDL_RaiseWindow(m_window);
     loop();
 }
 
