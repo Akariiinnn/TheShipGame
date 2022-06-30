@@ -7,6 +7,8 @@
 
 #include <SDL.h>
 
+//Utilities
+
 SDL_Surface *load_pngjpg(char const *path);
 SDL_Surface *load_bmp(char const *path);
 

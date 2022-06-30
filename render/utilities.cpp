@@ -6,7 +6,7 @@
 #include <iostream>
 #include <SDL_image.h>
 
-
+//Utilities
 
 SDL_Surface *load_pngjpg(char const *path)
 {

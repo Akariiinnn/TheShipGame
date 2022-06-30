@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1" date="1656486008532" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 29/06/2022 08:59 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/.ninja_deps" />
+    <option name="AFTER_PATH" value="cmake-build-release/.ninja_deps" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1/.ninja_deps" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/Testing/Temporary/LastTest.log" />
+    <option name="AFTER_PATH" value="cmake-build-release/Testing/Temporary/LastTest.log" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1/LastTest.log" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/CMakeFiles/TestSDL.dir/application.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-release/CMakeFiles/TestSDL.dir/application.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1/application.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/CMakeFiles/TestSDL.dir/main.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-release/CMakeFiles/TestSDL.dir/main.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_06_2022_08_59_[Changes]1/main.cpp.obj" />
+  </binary>
+</changelist>

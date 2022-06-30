@@ -12,6 +12,8 @@
 #include "../entities/meteorite.h"
 #include "../render/background.h"
 
+//Application class functions
+
 class Application
 {
 public:

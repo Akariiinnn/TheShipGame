@@ -9,6 +9,8 @@
 #include <SDL.h>
 #include "../render/spritesheet.h"
 
+//Meteorite class header
+
 class Meteorite {
 public:
     Meteorite();

@@ -9,6 +9,8 @@
 #include <iostream>
 #include "../render/spritesheet.h"
 
+//Ship class header
+
 class Ship
 {
 public:

@@ -4,6 +4,8 @@
 
 #include "spritesheet.h"
 
+//Spritesheet class methods
+
 Spritesheet::Spritesheet(char const *path, int row, int column)
 {
     m_spritesheet_image = load_pngjpg(path);

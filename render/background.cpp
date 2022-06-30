@@ -6,6 +6,8 @@
 #include "utilities.h"
 #include "../app/application.h"
 
+//Background class methods
+
 Background::Background(int x)
 {
     m_background_image = load_pngjpg("images/fond.png");

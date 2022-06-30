@@ -7,6 +7,8 @@
 
 #include <SDL.h>
 
+//Background class header
+
 class Background {
 public:
     Background(int);

@@ -4,6 +4,8 @@
 static int WINDOW_WIDTH = 680;
 static int WINDOW_HEIGHT = 480;
 
+//Application class methods
+
 Application::Application(int difficulty)
 {
     m_window = SDL_CreateWindow("The Ship Game !",

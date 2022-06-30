@@ -10,6 +10,8 @@ int ip = 0;
 int k = 0;
 bool secondrow = false;
 
+//Meteorite class methods
+
 Meteorite::Meteorite() : m_spritesheet("images/animated_asteroid2.png",2,16)
 {
     srand(time(0));

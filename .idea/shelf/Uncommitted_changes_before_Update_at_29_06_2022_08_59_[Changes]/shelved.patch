@@ -1,0 +1,16 @@
+Index: cmake-build-release/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v5\r\n1\t1507\t6781069412839356\tCMakeFiles/TestSDL.dir/main.cpp.obj\t87c784fb45f310d3\r\n8\t1529\t6781069413078709\tCMakeFiles/TestSDL.dir/application.cpp.obj\t9651bb72fae11be4\r\n29\t1541\t6781069413158500\tCMakeFiles/TestSDL.dir/ship2.cpp.obj\tc49b1b1d97d4e843\r\n17\t1620\t6781069413996254\tCMakeFiles/TestSDL.dir/utilities.cpp.obj\t5e931fe19da06a56\r\n1511\t2412\t6781069422039134\tCMakeFiles/TestSDL.dir/spritesheet.cpp.obj\tb21ab6ce0a6f8912\r\n1530\t2736\t6781069425280455\tCMakeFiles/TestSDL.dir/ship.cpp.obj\tfe1135abc4d22164\r\n2736\t3096\t6781069428760939\tTestSDL.exe\tff8d721772d75bd\r\n3\t1146\t6781075069047179\tCMakeFiles/TestSDL.dir/ship2.cpp.obj\tc49b1b1d97d4e843\r\n1154\t1550\t6781075072987879\tTestSDL.exe\tff8d721772d75bd\r\n
+===================================================================
+diff --git a/cmake-build-release/.ninja_log b/cmake-build-release/.ninja_log
+--- a/cmake-build-release/.ninja_log	
++++ b/cmake-build-release/.ninja_log	
+@@ -8,3 +8,7 @@
+ 2736	3096	6781069428760939	TestSDL.exe	ff8d721772d75bd
+ 3	1146	6781075069047179	CMakeFiles/TestSDL.dir/ship2.cpp.obj	c49b1b1d97d4e843
+ 1154	1550	6781075072987879	TestSDL.exe	ff8d721772d75bd
++3	2104	6781336577277646	CMakeFiles/TestSDL.dir/main.cpp.obj	87c784fb45f310d3
++2106	3419	6781336590306586	TestSDL.exe	ff8d721772d75bd
++3	1330	6781337737527137	CMakeFiles/TestSDL.dir/application.cpp.obj	9651bb72fae11be4
++1330	1678	6781337740888688	TestSDL.exe	ff8d721772d75bd

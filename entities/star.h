@@ -7,6 +7,8 @@
 #include <SDL.H>
 #include "../render/spritesheet.h"
 
+//Star class header
+
 class Star {
 public:
     Star();

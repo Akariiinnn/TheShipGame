@@ -4,6 +4,8 @@
 #include <windows.h>
 using namespace std;
 
+//main function
+
 int main(int argc, char* args[])
 {
     int difficulty;

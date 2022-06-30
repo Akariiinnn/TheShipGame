@@ -7,6 +7,8 @@ int const SPRITESHEET_RIGHT = 2;
 int const SPRITESHEET_DOWN = 3;
 float const SHIP_SPEED = 12.0;
 
+//Ship2 class methods
+
 Ship2::Ship2(): m_spritesheet("images/spritesheet.png", 1, 8)
 {
     m_position.x = 100;

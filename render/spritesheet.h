@@ -8,6 +8,8 @@
 #include <SDL.h>
 #include "utilities.h"
 
+//Spritesheet class header
+
 class Spritesheet
 {
 public:
