@@ -11,6 +11,7 @@
 #include <memory>
 #include "../entities/meteorite.h"
 #include "../render/background.h"
+#include "mouse.h"
 
 //Application class functions
 
@@ -21,6 +22,9 @@ public:
     ~Application();
 
     void loop();
+    void menu();
+    void menu_update(double);
+    void menu_draw();
     void update(double delta_time);
     void draw();
     int i;
@@ -30,16 +34,17 @@ public:
     SDL_Renderer *getRenderer();
 
 private:
-    int           m_difficulty;
-    Ship          m_ship;
-    Ship2         m_ship2;
-    Meteorite     m_meteorite;
-    Background   *m_background;
-    Background   *m_background2;
-    SDL_Window   *m_window;
-    SDL_Surface  *m_window_icon;
-    SDL_Surface  *m_window_surface;
-    SDL_Event     m_window_event;
+    int                  m_difficulty;
+    Ship                 m_ship;
+    Ship2                m_ship2;
+    Meteorite            m_meteorite;
+    Background          *m_background;
+    Background          *m_background2;
+    SDL_Window          *m_window;
+    SDL_Surface         *m_window_icon;
+    SDL_Surface         *m_window_surface;
+    SDL_Event            m_window_event;
+    Mouse                m_mouse;
 };
 
 #endif //UNTITLED3_APPLICATION_H
