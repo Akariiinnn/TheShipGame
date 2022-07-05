@@ -6,10 +6,9 @@
 
 Mouse::Mouse() : tex("../images/curseur.png",1,1)
 {
-    rect.w = 25;
-    rect.h = 25;
     point.w = 1;
     point.h = 1;
+    tex.select_sprite(0,0);
 }
 
 Mouse::~Mouse()
@@ -18,10 +17,15 @@ Mouse::~Mouse()
 }
 
 void Mouse::update() {
-    SDL_GetMouseState(&this->x, &this->y);
-    std::cout << "Mouse position : " << this->x << " " << this->y << std::endl;
+    buttons = SDL_GetMouseState(&this->x, &this->y);
+    point.x = this->x;
+    point.y = this->y;
 }
 
 void Mouse::draw(SDL_Surface *window_surface) {
     tex.draw_selected_sprite(window_surface, &point);
+}
+
+void Mouse::handle_events(const SDL_Event &event) {
+    if((buttons & SDL_BUTTON_LMASK) != 0) SDL_Log("Mouse button 1 (left) is pressed.");
 }

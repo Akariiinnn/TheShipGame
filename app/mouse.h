@@ -18,8 +18,9 @@ public:
     void update();
     void draw(SDL_Surface *window_surface);
     Spritesheet tex;
-    SDL_Rect rect;
     SDL_Rect point;
+    Uint32 buttons;
+    void handle_events(SDL_Event const &event);
     int x;
     int y;
 };

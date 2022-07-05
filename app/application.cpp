@@ -44,6 +44,7 @@ void Application::loop()
         {
             m_ship.handle_events(m_window_event);
             m_ship2.handle_events(m_window_event);
+            m_mouse.handle_events(m_window_event);
             switch(m_window_event.type)
             {
                 case SDL_QUIT:
@@ -51,24 +52,6 @@ void Application::loop()
                     break;
             }
         }
-
-        if(m_ship.getOrientation() == Ship::Orientation::NORTH)
-        {
-            std::cout << "Ship facing North !" << std::endl;
-        }
-        if(m_ship.getOrientation() == Ship::Orientation::SOUTH)
-        {
-            std::cout << "Ship facing South !" << std::endl;
-        }
-        if(m_ship.getOrientation() == Ship::Orientation::EAST)
-        {
-            std::cout << "Ship facing East !" << std::endl;
-        }
-        if(m_ship.getOrientation() == Ship::Orientation::WEST)
-        {
-            std::cout << "Ship facing West !" << std::endl;
-        }
-
 
         update(1.0/5.0);
         draw();
