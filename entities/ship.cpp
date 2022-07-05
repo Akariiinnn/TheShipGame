@@ -1,10 +1,6 @@
 #include "ship.h"
 #include "../app/application.h"
 
-int const SPRITESHEET_UP = 0;
-int const SPRITESHEET_LEFT = 1;
-int const SPRITESHEET_RIGHT = 2;
-int const SPRITESHEET_DOWN = 3;
 float const SHIP_SPEED = 12.0;
 
 // Ship class methods
